@@ -11,7 +11,7 @@
 export const reverseInt = (n: number): number => {
   return parseInt(n.toString().split("").reverse().join("")) * Math.sign(n);
 };
-
+console.log(reverseInt(-123));
 // 1. n gets converted to string
 // 2. then now it gets splitted and put into an array
 // 3. reverse them and join back them
